@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkgoldenrod;
+    font-size: 2rem;
+}
+
+h1 {
+    background: url(city.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10rem;
+    text-align: center;
+
+}
