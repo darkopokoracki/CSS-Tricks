@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.link {
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link1:hover {
+    background: darkorange;
+    color: #fff;
+}
+
+.link2:hover {
+    background: rebeccapurple;
+    color: #fff;
+}
+
+.link3:hover {
+    background: seagreen;
+    color: #fff;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+}
+
+.home {
+    background: darkorange;
+}
+
+.about {
+    background: rebeccapurple;
+}
+
+.contact {
+    background: seagreen;
+}
