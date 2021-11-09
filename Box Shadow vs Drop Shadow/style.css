@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:darkblue;
+}
+
+h2 {
+    color: white;
+}
+
+.image-wrapper {
+    width: 40%;
+    display: inline-block;
+    margin: 5%;
+}
+
+.box-shadow {
+    box-shadow: 10px 20px 24px #fff;
+}
+
+.drop-shadow {
+    filter: drop-shadow(10px 20px 24px #fff);
+}
